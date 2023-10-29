@@ -25,10 +25,12 @@
   ; (icon :nature_people :filled)
   ; =>
   ; [:i {:data-icon-family :material-icons-filled} :nature_people]
+  ;
+  ; @return (hiccup)
   [icon-name style]
   (case style :filled [:i {:data-icon-family :material-icons-filled}   icon-name]
                       [:i {:data-icon-family :material-icons-outlined} icon-name]))
-
+ 
 (defn symbol
   ; @param (keyword) symbol-name
   ; @param (keyword)(opt) style
@@ -50,6 +52,8 @@
   ; (symbol :nature_people :filled)
   ; =>
   ; [:i {:data-icon-family :material-symbols-filled} :nature_people]
+  ;
+  ; @return (hiccup)
   [symbol-name style]
   (case style :filled [:i {:data-icon-family :material-symbols-filled}   symbol-name]
                       [:i {:data-icon-family :material-symbols-outlined} symbol-name]))
