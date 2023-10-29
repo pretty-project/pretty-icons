@@ -6,4 +6,5 @@
 ;; ----------------------------------------------------------------------------
 
 ; material-icons.views
-(def icon views/icon)
+(def icon   views/icon)
+(def symbol views/symbol)

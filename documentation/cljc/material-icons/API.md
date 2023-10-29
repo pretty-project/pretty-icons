@@ -7,6 +7,8 @@
 
 - [icon](#icon)
 
+- [symbol](#symbol)
+
 ### icon
 
 ```
@@ -60,6 +62,65 @@ Default: :outlined
 
 (material-icons.api/icon ...)
 (icon                    ...)
+```
+
+</details>
+
+---
+
+### symbol
+
+```
+@param (keyword) symbol-name
+@param (keyword)(opt) style
+:outlined, :filled
+Default: :outlined
+```
+
+```
+@usage
+(symbol :nature_people :outlined)
+```
+
+```
+@usage
+(symbol :nature_people :filled)
+```
+
+```
+@example
+(symbol :nature_people :outlined)
+=>
+[:i {:data-icon-family :material-symbols-outlined} :nature_people]
+```
+
+```
+@example
+(symbol :nature_people :filled)
+=>
+[:i {:data-icon-family :material-symbols-filled} :nature_people]
+```
+
+<details>
+<summary>Source code</summary>
+
+```
+(defn symbol
+  [symbol-name style]
+  (case style :filled [:i {:data-icon-family :material-symbols-filled}   symbol-name]
+                      [:i {:data-icon-family :material-symbols-outlined} symbol-name]))
+```
+
+</details>
+
+<details>
+<summary>Require</summary>
+
+```
+(ns my-namespace (:require [material-icons.api :refer [symbol]]))
+
+(material-icons.api/symbol ...)
+(symbol                    ...)
 ```
 
 </details>
