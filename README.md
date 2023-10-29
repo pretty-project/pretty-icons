@@ -1,29 +1,29 @@
 
-# cljc-material-icons
+# pretty-icons
 
 ### Overview
 
-The <strong>cljc-material-icons</strong> is a simple Material Icons / Material Symbols
+The <strong>pretty-icons</strong> is a simple Material Icons / Material Symbols
 icon set implementation for Clojure projects.
 
 ### deps.edn
 
 ```
-{:deps {bithandshake/cljc-material-icons {:git/url "https://github.com/bithandshake/cljc-material-icons"
-                                          :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+{:deps {bithandshake/pretty-icons {:git/url "https://github.com/bithandshake/pretty-icons"
+                                   :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
 ```
 
 ### Current version
 
-Check out the latest commit on the [release branch](https://github.com/bithandshake/cljc-material-icons/tree/release).
+Check out the latest commit on the [release branch](https://github.com/bithandshake/pretty-icons/tree/release).
 
 ### Documentation
 
-The <strong>cljc-material-icons</strong> functional documentation is [available here](documentation/COVER.md).
+The <strong>pretty-icons</strong> functional documentation is [available here](documentation/COVER.md).
 
 ### Changelog
 
-You can track the changes of the <strong>cljc-material-icons</strong> library [here](CHANGES.md).
+You can track the changes of the <strong>pretty-icons</strong> library [here](CHANGES.md).
 
 # Usage
 
@@ -35,11 +35,10 @@ You can track the changes of the <strong>cljc-material-icons</strong> library [h
 
 ### First steps
 
-- Place the `material-icons.min.css` and/or `material-symbols.min.css` files in your
-  HTML header, you can find them in the `resources/public` folder of this repository:
+- Place the `pretty-icons.min.css` file in your HTML header, you can find it in
+  the `resources/public` folder of this repository:
 
-> `resources/public/material-icons.min.css`
-  `resources/public/material-symbols.min.css`
+> `resources/public/pretty-icons.min.css`
 
 - Place the resource links of the icon font families in your HTML header:
 
@@ -67,7 +66,7 @@ You can display Material icons and symbols ...
 
 ... by using the `:data-icon-family` attribute and using the icon name as the content of the element.
 
-... by using the `icon` and/or `symbol` functions of this library.
+... by using the `material-icon` and `material-symbol` functions of this library.
 
 > Use dashes instead of using hyphens in icon names!
 
@@ -81,11 +80,11 @@ You can display Material icons and symbols ...
 
 ```
 (ns my-namespace
-    (:require [material-icons.api :refer [icon symbol]]))
+    (:require [pretty-icons.api :refer [material-icon material-symbol]]))
 
-; Using the 'icon' and 'symbol' functions:
-(icon   :nature_people :filled)
-(icon   :nature_people :outlined)
-(symbol :nature_people :filled)
-(symbol :nature_people :outlined)
+; Using the 'material-icon' and 'material-symbol' functions:
+(material-icon   :nature_people :filled)
+(material-icon   :nature_people :outlined)
+(material-symbol :nature_people :filled)
+(material-symbol :nature_people :outlined)
 ```
