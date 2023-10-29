@@ -54,7 +54,7 @@ You can track the changes of the <strong>cljc-material-icons</strong> library [h
         :type "text/css"
         :href "https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"}]
 
-; Material Symbols Filled / Outlined
+; Material Symbols Filled and Outlined
 [:link {:ref  "stylesheet"
         :type "text/css"
         :href "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"}]
@@ -65,9 +65,9 @@ You can track the changes of the <strong>cljc-material-icons</strong> library [h
 
 You can display Material icons and symbols ...
 
-... by using the `:data-icon-family` attribute and using the icon name as the content of an element.
+... by using the `:data-icon-family` attribute and using the icon name as the content of the element.
 
-... by using the `icon` and/or `symbol` components of this library.
+... by using the `icon` and/or `symbol` functions of this library.
 
 > Use dashes instead of using hyphens in icon names!
 
@@ -83,9 +83,9 @@ You can display Material icons and symbols ...
 (ns my-namespace
     (:require [material-icons.api :refer [icon symbol]]))
 
-; Using the 'icon' and 'symbol' components:
-[icon   :nature_people :filled]
-[icon   :nature_people :outlined]
-[symbol :nature_people :filled]
-[symbol :nature_people :outlined]
+; Using the 'icon' and 'symbol' functions:
+(icon   :nature_people :filled)
+(icon   :nature_people :outlined)
+(symbol :nature_people :filled)
+(symbol :nature_people :outlined)
 ```
