@@ -1,15 +1,15 @@
 
-# material-icons.api isomorphic namespace
+# pretty-icons.api isomorphic namespace
 
-##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > material-icons.api
+##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > pretty-icons.api
 
 ### Index
 
-- [icon](#icon)
+- [material-icon](#material-icon)
 
-- [symbol](#symbol)
+- [material-symbol](#material-symbol)
 
-### icon
+### material-icon
 
 ```
 @param (keyword) icon-name
@@ -20,33 +20,37 @@ Default: :outlined
 
 ```
 @usage
-(icon :nature_people :outlined)
+(material-icon :nature_people :outlined)
 ```
 
 ```
 @usage
-(icon :nature_people :filled)
+(material-icon :nature_people :filled)
 ```
 
 ```
 @example
-(icon :nature_people :outlined)
+(material-icon :nature_people :outlined)
 =>
 [:i {:data-icon-family :material-icons-outlined} :nature_people]
 ```
 
 ```
 @example
-(icon :nature_people :filled)
+(material-icon :nature_people :filled)
 =>
 [:i {:data-icon-family :material-icons-filled} :nature_people]
+```
+
+```
+@return (hiccup)
 ```
 
 <details>
 <summary>Source code</summary>
 
 ```
-(defn icon
+(defn material-icon
   [icon-name style]
   (case style :filled [:i {:data-icon-family :material-icons-filled}   icon-name]
                       [:i {:data-icon-family :material-icons-outlined} icon-name]))
@@ -58,17 +62,17 @@ Default: :outlined
 <summary>Require</summary>
 
 ```
-(ns my-namespace (:require [material-icons.api :refer [icon]]))
+(ns my-namespace (:require [pretty-icons.api :refer [material-icon]]))
 
-(material-icons.api/icon ...)
-(icon                    ...)
+(pretty-icons.api/material-icon ...)
+(material-icon                  ...)
 ```
 
 </details>
 
 ---
 
-### symbol
+### material-symbol
 
 ```
 @param (keyword) symbol-name
@@ -79,33 +83,37 @@ Default: :outlined
 
 ```
 @usage
-(symbol :nature_people :outlined)
+(material-symbol :nature_people :outlined)
 ```
 
 ```
 @usage
-(symbol :nature_people :filled)
+(material-symbol :nature_people :filled)
 ```
 
 ```
 @example
-(symbol :nature_people :outlined)
+(material-symbol :nature_people :outlined)
 =>
 [:i {:data-icon-family :material-symbols-outlined} :nature_people]
 ```
 
 ```
 @example
-(symbol :nature_people :filled)
+(material-symbol :nature_people :filled)
 =>
 [:i {:data-icon-family :material-symbols-filled} :nature_people]
+```
+
+```
+@return (hiccup)
 ```
 
 <details>
 <summary>Source code</summary>
 
 ```
-(defn symbol
+(defn material-symbol
   [symbol-name style]
   (case style :filled [:i {:data-icon-family :material-symbols-filled}   symbol-name]
                       [:i {:data-icon-family :material-symbols-outlined} symbol-name]))
@@ -117,10 +125,10 @@ Default: :outlined
 <summary>Require</summary>
 
 ```
-(ns my-namespace (:require [material-icons.api :refer [symbol]]))
+(ns my-namespace (:require [pretty-icons.api :refer [material-symbol]]))
 
-(material-icons.api/symbol ...)
-(symbol                    ...)
+(pretty-icons.api/material-symbol ...)
+(material-symbol                  ...)
 ```
 
 </details>

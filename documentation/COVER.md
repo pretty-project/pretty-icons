@@ -1,13 +1,13 @@
 
-# cljc-material-icons documentation
+# pretty-icons documentation
 
-Documentation of the [cljc-material-icons](https://github.com/bithandshake/cljc-material-icons) Clojure / ClojureScript library
+Documentation of the [pretty-icons](https://github.com/bithandshake/pretty-icons) Clojure / ClojureScript library
 
 ##### [README](../README.md) > DOCUMENTATION
 
 ### Isomorphic namespaces
 
-* [material-icons.api](cljc/material-icons/API.md)
+* [pretty-icons.api](cljc/pretty-icons/API.md)
 
 ---
 
