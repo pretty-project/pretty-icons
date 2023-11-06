@@ -1,5 +1,9 @@
 
-# pretty-icons.api isomorphic namespace
+### pretty-icons.api
+
+Functional documentation of the pretty-icons.api isomorphic namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > pretty-icons.api
 
@@ -8,6 +12,8 @@
 - [material-icon](#material-icon)
 
 - [material-symbol](#material-symbol)
+
+---
 
 ### material-icon
 
@@ -135,5 +141,5 @@ Default: :outlined
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 
