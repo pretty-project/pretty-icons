@@ -9,13 +9,13 @@ icon set implementation for Clojure projects.
 ### deps.edn
 
 ```
-{:deps {bithandshake/pretty-icons {:git/url "https://github.com/bithandshake/pretty-icons"
-                                   :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+{:deps {pretty-project/pretty-icons {:git/url "https://github.com/pretty-project/pretty-icons"
+                                     :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
 ```
 
 ### Current version
 
-Check out the latest commit on the [release branch](https://github.com/bithandshake/pretty-icons/tree/release).
+Check out the latest commit on the [release branch](https://github.com/pretty-project/pretty-icons/tree/release).
 
 ### Documentation
 
