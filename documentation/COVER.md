@@ -1,7 +1,7 @@
 
 ### pretty-icons
 
-Functional documentation of the [pretty-icons](https://github.com/bithandshake/pretty-icons) Clojure / ClojureScript library
+Functional documentation of the [pretty-icons](https://github.com/pretty-project/pretty-icons) Clojure / ClojureScript library
 
 ---
 
