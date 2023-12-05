@@ -50,8 +50,8 @@
  -webkit-font-smoothing:        antialiased;
 
   /* XXX#5210
-   * By default the Material Symbols are selectable elements,
-   * therefore the selection has to be turned off. */
+   * By default the Material Symbols are selectable elements.
+   * Therefore, the selection must be turned off. */
  -ms-user-select:     none;
  -moz-user-select:    none;
  -webkit-user-select: none;
