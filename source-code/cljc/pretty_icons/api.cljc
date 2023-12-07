@@ -5,6 +5,6 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; pretty-icons.views
+; @redirect (pretty-icons.views)
 (def material-icon   views/material-icon)
 (def material-symbol views/material-symbol)
