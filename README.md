@@ -19,7 +19,7 @@ Check out the latest commit on the [release branch](https://github.com/pretty-pr
 
 ### Documentation
 
-The <strong>pretty-icons</strong> functional documentation is [available here](documentation/COVER.md).
+The <strong>pretty-icons</strong> functional documentation is [available here](https://pretty-project.github.io/pretty-icons).
 
 ### Changelog
 
