@@ -10,7 +10,7 @@ icon set implementation for Clojure projects.
 
 ```
 {:deps {pretty-project/pretty-icons {:git/url "https://github.com/pretty-project/pretty-icons"
-                                     :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+                                     :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
