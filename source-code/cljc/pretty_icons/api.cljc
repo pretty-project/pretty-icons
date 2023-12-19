@@ -7,12 +7,9 @@
 
 ; @tutorial First steps
 ;
-; Place the 'pretty-icons.min.css' file in your HTML header that you can find in the 'resources/public' folder of this repository:
+; Place the 'pretty-icons.min.css' file in the HTML header. You can find it in the [resources/public](https://github.com/pretty-project/pretty-icons/tree/release/resources/public) folder of this repository.
 ;
-; @code
-; 'resources/public/pretty-icons.min.css'
-;
-; Place the resource links of the icon font families in your HTML header:
+; Place the external resource links of the icon font families in the HTML header:
 ;
 ; @code
 ; ; Material Icons Filled:
